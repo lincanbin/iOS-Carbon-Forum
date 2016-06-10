@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		28C516971D0AAF1F00EE54DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C516961D0AAF1F00EE54DE /* AppDelegate.swift */; };
+		28C516991D0AAF1F00EE54DE /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C516981D0AAF1F00EE54DE /* FirstViewController.swift */; };
+		28C5169B1D0AAF1F00EE54DE /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C5169A1D0AAF1F00EE54DE /* SecondViewController.swift */; };
+		28C5169E1D0AAF1F00EE54DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28C5169C1D0AAF1F00EE54DE /* Main.storyboard */; };
+		28C516A01D0AAF1F00EE54DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28C5169F1D0AAF1F00EE54DE /* Assets.xcassets */; };
+		28C516A31D0AAF1F00EE54DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28C516A11D0AAF1F00EE54DE /* LaunchScreen.storyboard */; };
+		28C516AE1D0AAF1F00EE54DE /* carbonforumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C516AD1D0AAF1F00EE54DE /* carbonforumTests.swift */; };
+		28C516B91D0AAF1F00EE54DE /* carbonforumUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C516B81D0AAF1F00EE54DE /* carbonforumUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		28C516AA1D0AAF1F00EE54DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28C5168B1D0AAF1F00EE54DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28C516921D0AAF1F00EE54DE;
+			remoteInfo = carbonforum;
+		};
+		28C516B51D0AAF1F00EE54DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28C5168B1D0AAF1F00EE54DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28C516921D0AAF1F00EE54DE;
+			remoteInfo = carbonforum;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		28C516931D0AAF1F00EE54DE /* carbonforum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = carbonforum.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		28C516961D0AAF1F00EE54DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		28C516981D0AAF1F00EE54DE /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		28C5169A1D0AAF1F00EE54DE /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		28C5169D1D0AAF1F00EE54DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		28C5169F1D0AAF1F00EE54DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		28C516A21D0AAF1F00EE54DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		28C516A41D0AAF1F00EE54DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28C516A91D0AAF1F00EE54DE /* carbonforumTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = carbonforumTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		28C516AD1D0AAF1F00EE54DE /* carbonforumTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = carbonforumTests.swift; sourceTree = "<group>"; };
+		28C516AF1D0AAF1F00EE54DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28C516B41D0AAF1F00EE54DE /* carbonforumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = carbonforumUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		28C516B81D0AAF1F00EE54DE /* carbonforumUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = carbonforumUITests.swift; sourceTree = "<group>"; };
+		28C516BA1D0AAF1F00EE54DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28C516901D0AAF1F00EE54DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28C516A61D0AAF1F00EE54DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28C516B11D0AAF1F00EE54DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28C5168A1D0AAF1F00EE54DE = {
+			isa = PBXGroup;
+			children = (
+				28C516951D0AAF1F00EE54DE /* carbonforum */,
+				28C516AC1D0AAF1F00EE54DE /* carbonforumTests */,
+				28C516B71D0AAF1F00EE54DE /* carbonforumUITests */,
+				28C516941D0AAF1F00EE54DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		28C516941D0AAF1F00EE54DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28C516931D0AAF1F00EE54DE /* carbonforum.app */,
+				28C516A91D0AAF1F00EE54DE /* carbonforumTests.xctest */,
+				28C516B41D0AAF1F00EE54DE /* carbonforumUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28C516951D0AAF1F00EE54DE /* carbonforum */ = {
+			isa = PBXGroup;
+			children = (
+				28C516961D0AAF1F00EE54DE /* AppDelegate.swift */,
+				28C516981D0AAF1F00EE54DE /* FirstViewController.swift */,
+				28C5169A1D0AAF1F00EE54DE /* SecondViewController.swift */,
+				28C5169C1D0AAF1F00EE54DE /* Main.storyboard */,
+				28C5169F1D0AAF1F00EE54DE /* Assets.xcassets */,
+				28C516A11D0AAF1F00EE54DE /* LaunchScreen.storyboard */,
+				28C516A41D0AAF1F00EE54DE /* Info.plist */,
+			);
+			path = carbonforum;
+			sourceTree = "<group>";
+		};
+		28C516AC1D0AAF1F00EE54DE /* carbonforumTests */ = {
+			isa = PBXGroup;
+			children = (
+				28C516AD1D0AAF1F00EE54DE /* carbonforumTests.swift */,
+				28C516AF1D0AAF1F00EE54DE /* Info.plist */,
+			);
+			path = carbonforumTests;
+			sourceTree = "<group>";
+		};
+		28C516B71D0AAF1F00EE54DE /* carbonforumUITests */ = {
+			isa = PBXGroup;
+			children = (
+				28C516B81D0AAF1F00EE54DE /* carbonforumUITests.swift */,
+				28C516BA1D0AAF1F00EE54DE /* Info.plist */,
+			);
+			path = carbonforumUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		28C516921D0AAF1F00EE54DE /* carbonforum */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28C516BD1D0AAF1F00EE54DE /* Build configuration list for PBXNativeTarget "carbonforum" */;
+			buildPhases = (
+				28C5168F1D0AAF1F00EE54DE /* Sources */,
+				28C516901D0AAF1F00EE54DE /* Frameworks */,
+				28C516911D0AAF1F00EE54DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = carbonforum;
+			productName = carbonforum;
+			productReference = 28C516931D0AAF1F00EE54DE /* carbonforum.app */;
+			productType = "com.apple.product-type.application";
+		};
+		28C516A81D0AAF1F00EE54DE /* carbonforumTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28C516C01D0AAF1F00EE54DE /* Build configuration list for PBXNativeTarget "carbonforumTests" */;
+			buildPhases = (
+				28C516A51D0AAF1F00EE54DE /* Sources */,
+				28C516A61D0AAF1F00EE54DE /* Frameworks */,
+				28C516A71D0AAF1F00EE54DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28C516AB1D0AAF1F00EE54DE /* PBXTargetDependency */,
+			);
+			name = carbonforumTests;
+			productName = carbonforumTests;
+			productReference = 28C516A91D0AAF1F00EE54DE /* carbonforumTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		28C516B31D0AAF1F00EE54DE /* carbonforumUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28C516C31D0AAF1F00EE54DE /* Build configuration list for PBXNativeTarget "carbonforumUITests" */;
+			buildPhases = (
+				28C516B01D0AAF1F00EE54DE /* Sources */,
+				28C516B11D0AAF1F00EE54DE /* Frameworks */,
+				28C516B21D0AAF1F00EE54DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28C516B61D0AAF1F00EE54DE /* PBXTargetDependency */,
+			);
+			name = carbonforumUITests;
+			productName = carbonforumUITests;
+			productReference = 28C516B41D0AAF1F00EE54DE /* carbonforumUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		28C5168B1D0AAF1F00EE54DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = lincanbin;
+				TargetAttributes = {
+					28C516921D0AAF1F00EE54DE = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					28C516A81D0AAF1F00EE54DE = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 28C516921D0AAF1F00EE54DE;
+					};
+					28C516B31D0AAF1F00EE54DE = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 28C516921D0AAF1F00EE54DE;
+					};
+				};
+			};
+			buildConfigurationList = 28C5168E1D0AAF1F00EE54DE /* Build configuration list for PBXProject "carbonforum" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 28C5168A1D0AAF1F00EE54DE;
+			productRefGroup = 28C516941D0AAF1F00EE54DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				28C516921D0AAF1F00EE54DE /* carbonforum */,
+				28C516A81D0AAF1F00EE54DE /* carbonforumTests */,
+				28C516B31D0AAF1F00EE54DE /* carbonforumUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		28C516911D0AAF1F00EE54DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28C516A31D0AAF1F00EE54DE /* LaunchScreen.storyboard in Resources */,
+				28C516A01D0AAF1F00EE54DE /* Assets.xcassets in Resources */,
+				28C5169E1D0AAF1F00EE54DE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28C516A71D0AAF1F00EE54DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28C516B21D0AAF1F00EE54DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28C5168F1D0AAF1F00EE54DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28C5169B1D0AAF1F00EE54DE /* SecondViewController.swift in Sources */,
+				28C516971D0AAF1F00EE54DE /* AppDelegate.swift in Sources */,
+				28C516991D0AAF1F00EE54DE /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28C516A51D0AAF1F00EE54DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28C516AE1D0AAF1F00EE54DE /* carbonforumTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28C516B01D0AAF1F00EE54DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28C516B91D0AAF1F00EE54DE /* carbonforumUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		28C516AB1D0AAF1F00EE54DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28C516921D0AAF1F00EE54DE /* carbonforum */;
+			targetProxy = 28C516AA1D0AAF1F00EE54DE /* PBXContainerItemProxy */;
+		};
+		28C516B61D0AAF1F00EE54DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28C516921D0AAF1F00EE54DE /* carbonforum */;
+			targetProxy = 28C516B51D0AAF1F00EE54DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		28C5169C1D0AAF1F00EE54DE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28C5169D1D0AAF1F00EE54DE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		28C516A11D0AAF1F00EE54DE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28C516A21D0AAF1F00EE54DE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		28C516BB1D0AAF1F00EE54DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		28C516BC1D0AAF1F00EE54DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		28C516BE1D0AAF1F00EE54DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = carbonforum/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lincanbin.carbonforum;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		28C516BF1D0AAF1F00EE54DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = carbonforum/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lincanbin.carbonforum;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		28C516C11D0AAF1F00EE54DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = carbonforumTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lincanbin.carbonforumTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/carbonforum.app/carbonforum";
+			};
+			name = Debug;
+		};
+		28C516C21D0AAF1F00EE54DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = carbonforumTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lincanbin.carbonforumTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/carbonforum.app/carbonforum";
+			};
+			name = Release;
+		};
+		28C516C41D0AAF1F00EE54DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = carbonforumUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lincanbin.carbonforumUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = carbonforum;
+			};
+			name = Debug;
+		};
+		28C516C51D0AAF1F00EE54DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = carbonforumUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lincanbin.carbonforumUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = carbonforum;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28C5168E1D0AAF1F00EE54DE /* Build configuration list for PBXProject "carbonforum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28C516BB1D0AAF1F00EE54DE /* Debug */,
+				28C516BC1D0AAF1F00EE54DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28C516BD1D0AAF1F00EE54DE /* Build configuration list for PBXNativeTarget "carbonforum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28C516BE1D0AAF1F00EE54DE /* Debug */,
+				28C516BF1D0AAF1F00EE54DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		28C516C01D0AAF1F00EE54DE /* Build configuration list for PBXNativeTarget "carbonforumTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28C516C11D0AAF1F00EE54DE /* Debug */,
+				28C516C21D0AAF1F00EE54DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		28C516C31D0AAF1F00EE54DE /* Build configuration list for PBXNativeTarget "carbonforumUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28C516C41D0AAF1F00EE54DE /* Debug */,
+				28C516C51D0AAF1F00EE54DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 28C5168B1D0AAF1F00EE54DE /* Project object */;
+}
