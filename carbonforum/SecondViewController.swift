@@ -2,8 +2,8 @@
 //  SecondViewController.swift
 //  carbonforum
 //
-//  Created by lincanbin on 16/6/10.
-//  Copyright © 2016年 lincanbin. All rights reserved.
+//  Created by lincanbin on 2017/3/29.
+//  Copyright © 2017年 lincanbin. All rights reserved.
 //
 
 import UIKit

@@ -2,8 +2,8 @@
 //  carbonforumTests.swift
 //  carbonforumTests
 //
-//  Created by lincanbin on 16/6/10.
-//  Copyright © 2016年 lincanbin. All rights reserved.
+//  Created by lincanbin on 2017/3/29.
+//  Copyright © 2017年 lincanbin. All rights reserved.
 //
 
 import XCTest
@@ -28,7 +28,7 @@ class carbonforumTests: XCTestCase {
     
     func testPerformanceExample() {
         // This is an example of a performance test case.
-        self.measureBlock {
+        self.measure {
             // Put the code you want to measure the time of here.
         }
     }
